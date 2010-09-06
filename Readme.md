@@ -1,7 +1,7 @@
 
 # Express Contrib
       
-  [Express](http://expressjs.com) utilities. 
+  [Express](http://expressjs.com) utilities which do not belong in core, however prove useful.
 
 ## Installation
 
@@ -9,9 +9,41 @@ npm:
 
     $ npm install express-contrib
 
-## Features
+## Modules
 
   * Flash notification rendering (_express-messages_)
+
+## Module Usage
+
+You may either require the specific module, for example:
+
+    var messages = require('express-messages');
+
+or access via the main _express-contrib_ module:
+
+    var messages = require('express-contrib').messages;
+
+## Express Messages
+
+The _express-messages_ module provides flash notification rendering. To use simply assign it to a dynamic helper:
+
+    app.dynamicHelpers({ messages: require('express-messages') });
+
+Then in a view you may output the notifications:
+
+    <%- messages() %>
+
+Which outputs HTML as shown below:
+
+    <div id="messages">
+      <ul class="info">
+        <li>Email queued</li>
+        <li>Email sent</li>
+      </ul>
+      <ul class="error">
+        <li>Email delivery failed</li>
+      </ul>
+    </div>
 
 ## Contributors
 
