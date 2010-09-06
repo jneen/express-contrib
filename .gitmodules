@@ -7,3 +7,6 @@
 [submodule "support/ejs"]
 	path = support/ejs
 	url = git://github.com/visionmedia/ejs.git
+[submodule "support/connect"]
+	path = support/connect
+	url = git://github.com/senchalabs/connect.git
