@@ -51,6 +51,16 @@ The following are the major contributors of Express Contrib (in no specific orde
 
   * TJ Holowaychuk ([visionmedia](http://github.com/visionmedia))
 
+## Running Tests
+
+First make sure you have the submodules:
+
+    $ git submodule update --init
+
+Then run the tests:
+
+    $ make test
+
 ## License 
 
 (The MIT License)
