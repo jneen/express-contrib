@@ -1,0 +1,12 @@
+{
+  "name": "express-contrib",
+  "description": "Express utilities",
+  "version": "0.0.1",
+  "author": "TJ Holowaychuk <tj@vision-media.ca>",
+  "contributors": [ 
+    { "name": "TJ Holowaychuk", "email": "tj@vision-media.ca" }, 
+  ],
+  "keywords": ["express", "framework", "sinatra", "web", "rest", "restful"],
+  "directories": { "lib": "./lib" },
+  "engines": { "node": ">= 0.2.0" }
+}
