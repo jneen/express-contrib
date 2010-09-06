@@ -4,3 +4,6 @@
 [submodule "support/express"]
 	path = support/express
 	url = git://github.com/visionmedia/express.git
+[submodule "support/ejs"]
+	path = support/ejs
+	url = git://github.com/visionmedia/ejs.git
