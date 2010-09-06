@@ -25,7 +25,7 @@ utilizing many of the modules:
     var contrib = require('express-contrib');
     var messages = contrib.messages;
 
-## Express Messages
+## express-messages
 
 The _express-messages_ module provides flash notification rendering. To use simply assign it to a dynamic helper:
 
