@@ -19,9 +19,11 @@ You may either require the specific module, for example:
 
     var messages = require('express-messages');
 
-or access via the main _express-contrib_ module:
+or access via the main _express-contrib_ module which is useful when
+utilizing many of the modules:
 
-    var messages = require('express-contrib').messages;
+    var contrib = require('express-contrib');
+    var messages = contrib.messages;
 
 ## Express Messages
 
