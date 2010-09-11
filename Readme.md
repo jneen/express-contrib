@@ -52,6 +52,7 @@ Which outputs HTML as shown below:
 The following are the major contributors of Express Contrib (in no specific order).
 
   * TJ Holowaychuk ([visionmedia](http://github.com/visionmedia))
+  * Jay Adkisson ([jayferd](http://github.com/jayferd))
 
 ## Running Tests
 
